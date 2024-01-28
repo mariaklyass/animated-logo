@@ -1,7 +1,9 @@
 @font-face {
   font-family: "Luverancegolod";
   src: url("./Luverancegolod.ttf") format("truetype");
-  src: url("./Luverancegolod.otf") format("opentype");
+  src: url("./Luverancegolod.otf") format("opentype"),
+    url("./Luverancegolod.woff2") format("woff2"),
+    url("./Luverancegolod.woff") format("woff"), url("./Luverancegolod.eot");
 }
 * {
   margin: 0;
