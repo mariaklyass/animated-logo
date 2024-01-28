@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Luverancegolod";
   src: url("./Luverancegolod.eot");
   src: url("./Luverancegolod.eot?#iefix") format("embedded-opentype"),
@@ -8,6 +8,14 @@
     url("./Luverancegolod.svg") format("svg");
   font-weight: normal;
   font-style: normal;
+} */
+@font-face {
+  font-family: "Luverancegolod";
+  src: url("./Luverancegolod.woff2") format("woff2"); /* Super Modern Browsers */
+  src: url("./Luverancegolod.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("./Luverancegolod.eot")
+      format("embedded-opentype"),
+    url("./Luverancegolod.ttf") format("truetype"); /* Safari, Android, iOS */
 }
 
 * {
@@ -15,9 +23,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #root {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
@@ -26,15 +34,10 @@
 body {
   font-family: "Luverancegolod";
   font-size: 1.5rem;
-  width: 100vw;
-  height: 100vh;
-  /* overflow: hidden; */
-  padding: 0;
   margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(180deg, #010101, #000000); */
   background-color: #000000;
 }
 
@@ -65,15 +68,6 @@ body {
 
 svg,
 img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
-
-/* .item {
-  width: 56%;
-  overflow: visible;
-  stroke: #fff;
-  stroke-width: 1;
-  stroke-linejoin: round;
-  stroke-linecap: butt;
-} */
