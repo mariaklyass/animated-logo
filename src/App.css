@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Luverancegolod";
+  src: url("./Luverancegolod.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* animation */
+body {
+  font-family: "Luverancegolod";
+  font-size: 1.5rem;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+  padding: 0;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(180deg, #010101, #000000); */
+  background-color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  place-content: center;
+  border-radius: 30px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.option {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg,
+img {
+  width: 50%;
+  height: 50%;
+}
+
+/* .item {
+  width: 56%;
+  overflow: visible;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-linejoin: round;
+  stroke-linecap: butt;
+} */
