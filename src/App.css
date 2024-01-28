@@ -1,10 +1,15 @@
 @font-face {
   font-family: "Luverancegolod";
-  src: url("./Luverancegolod.ttf") format("truetype");
-  src: url("./Luverancegolod.otf") format("opentype"),
+  src: url("./Luverancegolod.eot");
+  src: url("./Luverancegolod.eot?#iefix") format("embedded-opentype"),
     url("./Luverancegolod.woff2") format("woff2"),
-    url("./Luverancegolod.woff") format("woff"), url("./Luverancegolod.eot");
+    url("./Luverancegolod.woff") format("woff"),
+    url("./Luverancegolod.ttf") format("truetype"),
+    url("./Luverancegolod.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
+
 * {
   margin: 0;
   padding: 0;
