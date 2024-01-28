@@ -1,4 +1,14 @@
-/* @font-face {
+/* 
+@font-face {
+  font-family: "Luverancegolod";
+  src: url("Luverancegolod.woff2") format("woff2"); 
+  src: url("Luverancegolod.woff") format("woff"),
+   url("Luverancegolod.eot")
+      format("embedded-opentype"),
+    url("Luverancegolod.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Luverancegolod";
   src: url("./Luverancegolod.eot");
   src: url("./Luverancegolod.eot?#iefix") format("embedded-opentype"),
@@ -9,13 +19,10 @@
   font-weight: normal;
   font-style: normal;
 } */
+
 @font-face {
   font-family: "Luverancegolod";
-  src: url("Luverancegolod.woff2") format("woff2"); /* Super Modern Browsers */
-  src: url("Luverancegolod.woff") format("woff"),
-    /* Pretty Modern Browsers */ url("Luverancegolod.eot")
-      format("embedded-opentype"),
-    url("Luverancegolod.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("/public/Luverancegolod.ttf") format("truetype"); /* Safari, Android, iOS */
 }
 
 * {
